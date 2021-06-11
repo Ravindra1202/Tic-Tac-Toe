@@ -1,0 +1,14 @@
+#buttons1,#buttons2,#buttons3,#buttons4,#buttons5,#buttons6,#buttons7,#buttons8,#buttons9{
+    font-size: 80px;
+    border-radius: 8px;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    
+}
+#playerxid,#playeroid{
+    text-align: center;
+    height: 20px;
+    width: 50px;
+    border: none;
+}

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <!--<script src="scripts/logic.js"></script>-->
+     
+</head>
+<body>
+
+    <form name="tictactoe" method="post" action="index.html">
+    <h1 id="h1">Welcome to Tic Tac Toe Game</h1><br><br>
+    <h3 id="print2"></h3>
+    <h3 id="print">Player X Turn</h3>
+    <div class="container"> 
+    <div class="row"> 
+    <div class="col-sm-4"> 
+    <table> 
+    <tr>
+        <td>
+            <input type="button" name="btn1" id="buttons1" value=" " onclick="playerMove(this)">
+            <input type="button" name="btn2" id="buttons2" value=" " onclick="playerMove(this)">
+             <input type="button" name="btn3" id="buttons3" value=" " onclick="playerMove(this)">
+        </td>
+    </tr>
+    <tr>
+        <td>
+    <input type="button" name="btn4" id="buttons4" value=" " onclick="playerMove(this)">
+    <input type="button" name="btn5" id="buttons5" value=" " onclick="playerMove(this)">
+    <input type="button" name="btn6" id="buttons6" value=" " onclick="playerMove(this)"> 
+    </td>
+    </tr>
+    <tr>
+        <td>
+    <input type="button" name="btn7" id="buttons7" value=" " onclick="playerMove(this)">
+    <input type="button" name="btn8" id="buttons8" value=" " onclick="playerMove(this)">
+    <input type="button" name="btn9" id="buttons9" value=" " onclick="playerMove(this)">
+    </td>
+    </tr>
+    
+    
+</table>
+</div>
+<div class="col-sm-4"> 
+    <table>
+        <tr><td> Player X Won :</td><td><input type="text" value="0" name="txtplayerx" id="playerxid"> </td></tr>
+        <tr><td> Player O Won :</td><td><input type="text" value="0" name="txtplayero" id="playeroid"> </td></tr>
+        <tr><td> 
+              <input type="button" value="New Game" onclick="NewGame()"></td>
+            <td> <input type="button" value="Reset" onclick="ResetGame()"></td>
+        </tr>
+    </table>
+    </div>
+    </div>
+</div>
+</form>
+     
+    <script src="scripts/logic2.js"></script>
+
+</body>
+</html>
